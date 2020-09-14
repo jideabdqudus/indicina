@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Row, Col, Button, Container } from "reactstrap";
+import { Button, Container } from "reactstrap";
 import HeroImg from "../assets/indicina-hero-image.jpg";
 import "./components.css";
 
@@ -31,7 +31,6 @@ const Landing = () => {
 };
 
 const fontStyle = {
-  paddingTop: "150px",
   fontSize: "4.25rem",
   fontWeight: "700",
   lineHeight: "1.2em",

@@ -3,3 +3,25 @@
   background-size: 50%;
   padding: 0 3rem;
 }
+
+.containerHero {
+  height: 63.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.cardHero {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0, 115, 231, 0.08);
+  margin: 1rem;
+  padding: 7.8rem 5.3rem 4.9rem;
+}
+
+.cardTitle{
+    color: #002c5b;
+    font-size: 5.5rem;
+    font-weight: 700;
+    line-height: 6.7rem;
+    margin: 0 0 3.5rem;
+}

@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import "./pages.css";
 import Topbar2 from "../layout/Topbar2";
 import Landing from "../components/Landing";
+import Fix from "../components/Fix";
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
       <div>
         <Topbar2 />
         <Landing/>
-        <h1>Wagwa</h1>
+        <Fix/>
       </div>
     </Fragment>
   );
