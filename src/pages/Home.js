@@ -9,6 +9,7 @@ const Home = () => {
       <div>
         <Topbar2 />
         <Landing/>
+        <h1>Wagwa</h1>
       </div>
     </Fragment>
   );
