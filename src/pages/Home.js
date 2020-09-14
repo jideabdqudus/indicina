@@ -1,12 +1,14 @@
 import React, { Fragment } from "react";
 import "./pages.css";
-import Topbar from "../layout/Topbar";
+import Topbar2 from "../layout/Topbar2";
+import Landing from "../components/Landing";
 
 const Home = () => {
   return (
     <Fragment>
       <div>
-        <Topbar />
+        <Topbar2 />
+        <Landing/>
       </div>
     </Fragment>
   );
