@@ -1,10 +1,10 @@
 import React from "react";
-import Topbar from "./layout/Topbar";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
     <div>
-      <Topbar/>
+      <Home />
     </div>
   );
 };
