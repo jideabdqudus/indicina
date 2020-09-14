@@ -19,7 +19,7 @@ const Topbar2 = () => {
 
   return (
     <Container>
-      <Navbar color="#fff" light expand="md">
+      <Navbar color="#fff" light expand="md" sticky="true">
         <NavbarBrand href="/">
           <img src={Logo} alt="Indicina Logo" />
         </NavbarBrand>

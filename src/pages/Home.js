@@ -9,8 +9,10 @@ const Home = () => {
     <Fragment>
       <div>
         <Topbar2 />
-        <Landing/>
-        <Fix/>
+        <Landing />
+        <div className="fixBg">
+          <Fix />
+        </div>
       </div>
     </Fragment>
   );
