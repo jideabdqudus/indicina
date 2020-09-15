@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import OriginateImg from "../assets/originate.png";
 import "./components.css";
+import Engine from "../assets/model-engine.png";
 
 const Originate = () => {
   return (
@@ -19,9 +20,9 @@ const Originate = () => {
       >
         How we're trying to fix it
       </h1>
-      <Container>
+      <Container style={{ marginBottom: "50px" }}>
         <Row>
-          <Col xs="6">
+          <Col xs="6" style={{ marginTop: "40px" }}>
             <h1
               style={{
                 fontSize: "30px",
@@ -41,8 +42,8 @@ const Originate = () => {
                   listStyleType: "square",
                   fontSize: "17px",
                   fontWeight: "500",
-                  lineHeight:"2.15rem",
-                  paddingBottom:"10px"
+                  lineHeight: "2.15rem",
+                  paddingBottom: "10px",
                 }}
               >
                 Optimize default rates with increased application acceptance
@@ -53,8 +54,8 @@ const Originate = () => {
                   listStyleType: "square",
                   fontSize: "17px",
                   fontWeight: "500",
-                  lineHeight:"2.15rem",
-                  paddingBottom:"10px"
+                  lineHeight: "2.15rem",
+                  paddingBottom: "10px",
                 }}
               >
                 Originate and manage lending using digital technology and
@@ -65,8 +66,8 @@ const Originate = () => {
                   listStyleType: "square",
                   fontSize: "17px",
                   fontWeight: "500",
-                  lineHeight:"2.15rem",
-                  paddingBottom:"10px"
+                  lineHeight: "2.15rem",
+                  paddingBottom: "10px",
                 }}
               >
                 We offer a data-driven approach to credit underwriting. Lenders
@@ -85,6 +86,44 @@ const Originate = () => {
                 />
               </figure>
             </aside>
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col xs="6">
+            <aside>
+              <figure>
+                <img src={Engine} alt="Engine" style={{ maxWidth: "100%" }} />
+              </figure>
+            </aside>
+          </Col>
+          <Col xs="6">
+            <h1
+              style={{
+                fontSize: "30px",
+                color: "#0073e7",
+                fontWeight: "500",
+                paddingBottom: "20px",
+                marginTop: "50px",
+              }}
+            >
+              Credit Scorecard and Decision Model Engine
+            </h1>
+            <h3
+              style={{
+                fontSize: "18px",
+                fontWeight: "400",
+                lineHeight: "2rem",
+              }}
+            >
+              Our flagship product is a digitized credit analysis platform to
+              drive a digitally-led consumer finance strategy. <br />
+              It uses statistically sound predictive modelling and machine
+              learning techniques to more efficiently identify and reject
+              potentially “bad” loans during the application and underwriting
+              process.
+            </h3>
           </Col>
         </Row>
       </Container>
