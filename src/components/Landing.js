@@ -20,8 +20,8 @@ const Landing = () => {
                 Our vision is to unlock the massive African consumer credit
                 opportunity by enabling much-needed risk innovation
               </p>
-              <Button>Contact</Button>
-              <Button>Our Products</Button>
+              <Button style={Btn1}>Contact</Button>
+              <Button style={Btn2}>Our Products</Button>
             </div>
           </Container>
         </div>
@@ -31,15 +31,36 @@ const Landing = () => {
 };
 
 const fontStyle = {
-  fontSize: "4.25rem",
+  fontSize: "50px",
   fontWeight: "700",
   lineHeight: "1.2em",
   margin: "0 0 1.2rem",
   color: "#0073e7",
 };
 
+const Btn1 = {
+  background: "#0073e7",
+  color: "#fff",
+  fontWeight: "600",
+  border: "1px solid transparent",
+  borderRadius: "5px",
+  cursor: "pointer",
+  width: "140px",
+};
+
+const Btn2 = {
+  background: "white",
+  color: "#0073e7",
+  fontWeight: "600",
+  border: "1px solid #0073e7",
+  borderRadius: "5px",
+  cursor: "pointer",
+  width: "140px",
+  marginLeft: "20px",
+};
+
 const paraStyle = {
-  fontSize: "2rem",
+  fontSize: "25px",
   lineHeight: "1.3em",
   margin: "0 0 3rem",
 };
