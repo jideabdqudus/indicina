@@ -119,6 +119,7 @@ const Originate = () => {
             >
               Our flagship product is a digitized credit analysis platform to
               drive a digitally-led consumer finance strategy. <br />
+              <br />
               It uses statistically sound predictive modelling and machine
               learning techniques to more efficiently identify and reject
               potentially “bad” loans during the application and underwriting

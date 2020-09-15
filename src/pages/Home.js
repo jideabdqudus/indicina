@@ -4,6 +4,7 @@ import Topbar2 from "../layout/Topbar2";
 import Landing from "../components/Landing";
 import Fix from "../components/Fix";
 import Originate from "../components/Originate";
+import PreFooter from "../components/PreFooter";
 
 const Home = () => {
   return (
@@ -16,6 +17,9 @@ const Home = () => {
         </div>
         <div className="originateBg">
           <Originate />
+        </div>
+        <div className="preFooterBg">
+          <PreFooter/>
         </div>
       </div>
     </Fragment>
