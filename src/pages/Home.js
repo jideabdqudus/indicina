@@ -3,6 +3,7 @@ import "./pages.css";
 import Topbar2 from "../layout/Topbar2";
 import Landing from "../components/Landing";
 import Fix from "../components/Fix";
+import Originate from "../components/Originate";
 
 const Home = () => {
   return (
@@ -12,6 +13,9 @@ const Home = () => {
         <Landing />
         <div className="fixBg">
           <Fix />
+        </div>
+        <div className="originateBg">
+          <Originate />
         </div>
       </div>
     </Fragment>

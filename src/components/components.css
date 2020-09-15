@@ -14,14 +14,25 @@
   background: #fff;
   border-radius: 4px;
   box-shadow: 0 5px 15px rgba(0, 115, 231, 0.08);
-  margin: 1rem;
+  margin: 10px;
   padding: 7.8rem 5.3rem 4.9rem;
 }
 
-.cardTitle{
-    color: #002c5b;
-    font-size: 5.5rem;
-    font-weight: 700;
-    line-height: 6.7rem;
-    margin: 0 0 3.5rem;
+.cardTitle {
+  color: #002c5b;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 3.7rem;
+  margin: 0 0 1.5rem;
+}
+.originateName li {
+  border: 2px solid rgba(0, 115, 231, 0.8);
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 1rem;
+  left: 0;
+  position: absolute;
+  top: 0.5rem;
+  width: 1rem;
 }
