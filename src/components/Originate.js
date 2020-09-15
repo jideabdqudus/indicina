@@ -40,8 +40,8 @@ const Originate = () => {
               <li
                 style={{
                   listStyleType: "square",
-                  fontSize: "17px",
-                  fontWeight: "500",
+                  fontSize: "18px",
+                  fontWeight: "400",
                   lineHeight: "2.15rem",
                   paddingBottom: "10px",
                 }}
@@ -52,8 +52,8 @@ const Originate = () => {
               <li
                 style={{
                   listStyleType: "square",
-                  fontSize: "17px",
-                  fontWeight: "500",
+                  fontSize: "18px",
+                  fontWeight: "400",
                   lineHeight: "2.15rem",
                   paddingBottom: "10px",
                 }}
@@ -64,8 +64,8 @@ const Originate = () => {
               <li
                 style={{
                   listStyleType: "square",
-                  fontSize: "17px",
-                  fontWeight: "500",
+                  fontSize: "18px",
+                  fontWeight: "400",
                   lineHeight: "2.15rem",
                   paddingBottom: "10px",
                 }}

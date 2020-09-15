@@ -5,7 +5,7 @@ import Landing from "../components/Landing";
 import Fix from "../components/Fix";
 import Originate from "../components/Originate";
 import PreFooter from "../components/PreFooter";
-
+import Footer from "../layout/Footer";
 const Home = () => {
   return (
     <Fragment>
@@ -20,6 +20,9 @@ const Home = () => {
         </div>
         <div className="preFooterBg">
           <PreFooter/>
+        </div>
+        <div className="FooterBg">
+          <Footer/>
         </div>
       </div>
     </Fragment>
