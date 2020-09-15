@@ -10,6 +10,8 @@ import {
   Container,
 } from "reactstrap";
 
+import {Link} from "react-router-dom";
+
 import Logo from "../assets/indicina-logo.svg";
 
 const Topbar2 = () => {
@@ -27,24 +29,31 @@ const Topbar2 = () => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar></Nav>
           <NavbarText>
-            <a href="/" style={myActiveItem}>
+            <Link to="/" style={myActiveItem}>
               Home
-            </a>
+            </Link>
           </NavbarText>
           <NavbarText>
-            {" "}
-            <a href="/" style={myItem}>
+            <Link to="/products" style={myItem}>
               Products
-            </a>
+            </Link>
           </NavbarText>
           <NavbarText>
-            <a href="/" style={myItem}>
+            <Link to="/team" style={myItem}>
               Team
-            </a>
+            </Link>
           </NavbarText>
           <NavbarText>
             <Button style={{ backgroundColor: "#0073e7", color: "#fff" }}>
-              <span style={{padding:"20px", fontSize:"16px", fontWeight:"bold"}}>Contact</span>
+              <span
+                style={{
+                  padding: "20px",
+                  fontSize: "16px",
+                  fontWeight: "bold",
+                }}
+              >
+                Contact
+              </span>
             </Button>
           </NavbarText>
         </Collapse>

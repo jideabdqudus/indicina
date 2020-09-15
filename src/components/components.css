@@ -15,7 +15,7 @@
   border-radius: 4px;
   box-shadow: 0 5px 15px rgba(0, 115, 231, 0.08);
   margin: 10px;
-  padding: 7.8rem 5.3rem 4.9rem;
+  padding: 3.8rem 3.7rem 3.9rem;
 }
 
 .cardTitle {
@@ -37,3 +37,7 @@
   width: 1rem;
 }
 
+.works{
+    color: #0073e7;
+    font-size: 30px;
+}

@@ -33,8 +33,19 @@
   background-repeat: no-repeat;
 }
 
-
 .FooterBg {
   background-color: #002c5b;
- 
+}
+
+.middleSect {
+  background-color: #f8f8f9;
+  padding-top: 100px;
+}
+
+.topHeaderBg {
+  background-color: #fff;
+  background-image: url(../assets/indicina-icon-dark.svg);
+  background-repeat: no-repeat;
+  background-position:right  ;
+  
 }
