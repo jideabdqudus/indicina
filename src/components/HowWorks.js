@@ -6,7 +6,7 @@ const HowWorks = () => {
     <div>
       <Row>
         <Col sm="6">
-          <Card body className="cardHero">
+          <Card body className="cardHero" style={{ height: "350px" }}>
             <CardTitle className="works">Customer Acquisiton</CardTitle>
             <b>PRODUCT DESIGN & DEVELOPMENT</b>
             <CardText style={{ fontSize: "1.3rem", lineHeight: "1.1em" }}>
@@ -50,7 +50,7 @@ const HowWorks = () => {
           </Card>
         </Col>
         <Col sm="6">
-          <Card body className="cardHero">
+          <Card body className="cardHero" style={{ height: "350px" }}>
             <CardTitle className="works">Loss Management</CardTitle>
             <b>FRAUD MANAGEMENT & COLLECTIONS</b>
             <CardText style={{ fontSize: "1.3rem", lineHeight: "1.1em" }}>
@@ -104,7 +104,7 @@ const HowWorks = () => {
           </Card>
         </Col>
         <Col sm="6">
-          <Card body className="cardHero">
+          <Card body className="cardHero" style={{ height: "400px" }}>
             <CardTitle className="works">Operations & Underwriting</CardTitle>
             <b>RISK ASSESSMENT</b>
             <CardText style={{ fontSize: "1.3rem", lineHeight: "1.1em" }}>
@@ -185,7 +185,7 @@ const HowWorks = () => {
           </Card>
         </Col>
         <Col sm="6">
-          <Card body className="cardHero">
+          <Card body className="cardHero" style={{ height: "400px" }}>
             <CardTitle className="works">Portfolio Management</CardTitle>
             <b>CUSTOMER CARE</b>
             <CardText style={{ fontSize: "1.3rem", lineHeight: "1.1em" }}>

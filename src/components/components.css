@@ -37,7 +37,19 @@
   width: 1rem;
 }
 
-.works{
-    color: #0073e7;
-    font-size: 30px;
+.works {
+  color: #0073e7;
+  font-size: 30px;
+}
+
+.backPaper {
+  background: #d3e4f4;
+  border-radius: 5px;
+  height: 15rem;
+  left: 0;
+  top: 0;
+  width: 15rem;
+  margin: 0;
+  padding: 1rem 0 0 1.2rem;
+  position: relative;
 }

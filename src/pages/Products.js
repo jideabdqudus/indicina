@@ -12,8 +12,10 @@ import { Container } from "reactstrap";
 const Products = () => {
   return (
     <Fragment>
-      <Topbar2 />
-      <div className="topHeaderBg">
+      <Container>
+        <Topbar2 />
+      </Container>
+      <div>
         <ProductHead />
       </div>
       <div className="middleSect" style={{ paddingBottom: "100px" }}>

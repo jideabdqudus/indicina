@@ -10,9 +10,10 @@ import {
   Container,
 } from "reactstrap";
 
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import Logo from "../assets/indicina-logo.svg";
+import "./layout.css";
 
 const Topbar2 = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,8 +22,14 @@ const Topbar2 = () => {
 
   return (
     <Container>
-      <Navbar color="#fff" light expand="md" sticky="true">
-        <NavbarBrand href="/">
+      <Navbar color="#fff" light expand="md" className="sticky">
+        <NavbarBrand
+          href="/"
+          style={{
+            paddingRight: "15px",
+            paddingLeft: "13rem",
+          }}
+        >
           <img src={Logo} alt="Indicina Logo" />
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
@@ -43,7 +50,12 @@ const Topbar2 = () => {
               Team
             </Link>
           </NavbarText>
-          <NavbarText>
+          <NavbarText
+            style={{
+              paddingLeft: "15px",
+              paddingRight: "13rem",
+            }}
+          >
             <Button style={{ backgroundColor: "#0073e7", color: "#fff" }}>
               <span
                 style={{
