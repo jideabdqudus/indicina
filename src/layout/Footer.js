@@ -10,7 +10,7 @@ const Footer = () => {
         fontSize: "15px",
       }}
     >
-      <span>© 2020 Indicina Technologies</span>
+      <span>© 2020 Jide Abdul-Qudus for TheQoder</span>
     </div>
   );
 };
