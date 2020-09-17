@@ -7,10 +7,16 @@ import Originate from "../components/Originate";
 import PreFooter from "../components/PreFooter";
 import Footer from "../layout/Footer";
 import EngineSide from "../components/EngineSide";
+import { Helmet } from "react-helmet";
 const Home = () => {
   return (
     <Fragment>
       <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Home - Indicina Technolgies</title>
+          <link rel="canonical" href="http://abdulqudus.com" />
+        </Helmet>
         <Topbar2 />
         <Landing />
         <div className="fixBg">
@@ -21,7 +27,7 @@ const Home = () => {
             style={{
               textAlign: "center",
               paddingBottom: "100px",
-              paddingTop:"100px",
+              paddingTop: "100px",
               color: "#0073e7",
               fontWeight: "600",
             }}

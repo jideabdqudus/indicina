@@ -1,13 +1,12 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 import { Button, Container } from "reactstrap";
 import "./components.css";
 
 const Landing = () => {
   return (
     <Fragment>
-      <div
-        className="backGroundHero"
-      >
+      <div className="backGroundHero">
         <div className="containerHero">
           <Container>
             <div className="gridSize">
@@ -19,7 +18,9 @@ const Landing = () => {
                 opportunity by enabling much-needed risk innovation
               </p>
               <Button style={Btn1}>Contact</Button>
-              <Button style={Btn2}>Our Products</Button>
+              <Button style={Btn2}>
+                <Link to="/products">Our Products</Link>
+              </Button>
             </div>
           </Container>
         </div>
