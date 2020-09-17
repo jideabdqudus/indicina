@@ -24,6 +24,18 @@
     font-size: 20px;
     line-height: 1.9rem;
   }
+  .figureStyle {
+    margin-top: 5rem !important;
+  }
+  .iconStyle {
+    margin-top: 5px !important;
+    margin-bottom: 5rem !important;
+  }
+}
+
+.iconStyle {
+  margin-top: 12rem;
+  margin-bottom: 10rem;
 }
 
 .productPara {

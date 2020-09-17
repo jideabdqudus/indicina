@@ -1,17 +1,23 @@
 import React from "react";
 import "./pages.css";
-import Topbar2 from "../layout/Topbar2";
+import TeamBar from "../layout/TeamBar";
 import PreFooter from "../components/PreFooter";
 import Footer from "../layout/Footer";
 import { Container } from "reactstrap";
 import TeamHead from "../components/TeamHead";
 import Members from "../components/Members";
+import { Helmet } from "react-helmet";
 
 const Team = () => {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Team - Indicina Technolgies</title>
+        <link rel="canonical" href="http://abdulqudus.com" />
+      </Helmet>
       <Container>
-        <Topbar2 />
+        <TeamBar />
       </Container>
       <div>
         <TeamHead />
