@@ -60,9 +60,31 @@ const TeamBar = (props) => {
               <span>Contact</span>
             </Button>
             <Modal isOpen={modal} toggle={toggle2}>
-              <ModalHeader toggle={toggle2}>Contact us</ModalHeader>
-              <ModalBody></ModalBody>
-              <ModalFooter></ModalFooter>
+              <ModalHeader toggle={toggle2}>Contact the Developer</ModalHeader>
+              <ModalBody>
+                This website was built by{" "}
+                <a href="https://abdulqudus.com" target="__blank">
+                  Jide Abdul-Qudus
+                </a>{" "}
+                from scratch using React JS, Bootstrap & CSS. I spent
+                approximately 16 hours writing the codes for this project.
+                <br />
+                <br />
+                The code can be found in my github page, visit{" "}
+                <a href="https://github.com/jideabdqudus">
+                  https://github.com/jideabdqudus
+                </a>
+                <br />
+                <br />
+                For more projects check out{" "}
+                <a href="https://abdulqudus.com" target="__blank">
+                  my portfolio
+                </a>
+                <br />
+                Gracias!
+                <br />
+              </ModalBody>
+              <ModalFooter>© 2020 The Qoder</ModalFooter>
             </Modal>
           </NavbarText>
         </Collapse>
