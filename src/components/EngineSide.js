@@ -8,14 +8,14 @@ const EngineSide = () => {
     <div style={{ paddingBottom: "100px" }}>
       <Container>
         <Row>
-          <Col xs="6">
+          <Col xs="6" className="columnStyle">
             <aside>
               <figure>
                 <img src={Engine} alt="Engine" style={{ maxWidth: "100%" }} />
               </figure>
             </aside>
           </Col>
-          <Col xs="6">
+          <Col xs="6" className="columnStyle">
             <h1
               style={{
                 fontSize: "30px",

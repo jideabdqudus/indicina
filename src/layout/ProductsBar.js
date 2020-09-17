@@ -19,11 +19,10 @@ import { Link } from "react-router-dom";
 import Logo from "../assets/indicina-logo.svg";
 import "./layout.css";
 
-const Topbar2 = (props) => {
+const ProductsBar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
-
 
   const [modal, setModal] = useState(false);
 
@@ -32,21 +31,19 @@ const Topbar2 = (props) => {
   return (
     <Container>
       <Navbar color="#fff" light expand="md">
-        <NavbarBrand
-          href="/"
-        >
+        <NavbarBrand href="/">
           <img src={Logo} alt="Indicina Logo" />
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar></Nav>
           <NavbarText>
-            <Link to="/" style={myActiveItem}>
+            <Link to="/" style={myItem}>
               Home
             </Link>
           </NavbarText>
           <NavbarText>
-            <Link to="/products" style={myItem}>
+            <Link to="/products" style={myActiveItem}>
               Products
             </Link>
           </NavbarText>
@@ -55,25 +52,17 @@ const Topbar2 = (props) => {
               Team
             </Link>
           </NavbarText>
-          <NavbarText
-            
-          >
+          <NavbarText>
             <Button
               style={{ backgroundColor: "#0073e7", color: "#fff" }}
               onClick={toggle2}
             >
-              <span
-              >
-                Contact
-              </span>
+              <span>Contact</span>
             </Button>
             <Modal isOpen={modal} toggle={toggle2}>
               <ModalHeader toggle={toggle2}>Contact us</ModalHeader>
-              <ModalBody>
-              </ModalBody>
-              <ModalFooter>
-
-              </ModalFooter>
+              <ModalBody></ModalBody>
+              <ModalFooter></ModalFooter>
             </Modal>
           </NavbarText>
         </Collapse>
@@ -100,4 +89,4 @@ const myItem = {
   textDecoration: "none",
 };
 
-export default Topbar2;
+export default ProductsBar;

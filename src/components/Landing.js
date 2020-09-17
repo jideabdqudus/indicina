@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import { Button, Container } from "reactstrap";
-import HeroImg from "../assets/indicina-hero-image.jpg";
 import "./components.css";
 
 const Landing = () => {
@@ -8,11 +7,10 @@ const Landing = () => {
     <Fragment>
       <div
         className="backGroundHero"
-        style={{ backgroundImage: `url(${HeroImg})` }}
       >
         <div className="containerHero">
           <Container>
-            <div style={{ maxWidth: "42.6%" }}>
+            <div className="gridSize">
               <h1 style={fontStyle}>
                 Indicina is building Africa’s credit infrastructure
               </h1>

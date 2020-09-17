@@ -2,6 +2,50 @@
   background: #fff 100% 100% no-repeat;
   background-size: 50%;
   padding: 0 3rem;
+  background-image: url(../assets/indicina-hero-image.jpg);
+}
+
+@media screen and (max-width: 600px) {
+  .backGroundHero {
+    background-image: none;
+    max-width: 100%;
+    display: grid;
+    height: auto;
+    padding: 0 0rem;
+    align-items: left;
+  }
+  .columnStyle {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+  .productPara {
+    max-width: 100% !important;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.9rem;
+  }
+}
+
+.productPara {
+  max-width: 30%;
+  margin: auto;
+  font-size: 20px;
+  line-height: 1.6rem;
+}
+
+.columnStyle {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .gridSize {
+    max-width: 100% !important;
+  }
+}
+
+.gridSize {
+  max-width: 42.6%;
 }
 
 .containerHero {

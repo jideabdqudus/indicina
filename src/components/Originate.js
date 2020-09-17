@@ -5,13 +5,10 @@ import "./components.css";
 
 const Originate = () => {
   return (
-    <div
-      className="container"
-    >
-
+    <div className="container">
       <Container style={{ marginBottom: "50px" }}>
-        <Row>
-          <Col xs="6" style={{ marginTop: "40px" }}>
+        <Row xs="6" lg="12" md="12" sm="12">
+          <Col xs="6" style={{ marginTop: "40px" }} className="columnStyle">
             <h1
               style={{
                 fontSize: "30px",
@@ -65,16 +62,16 @@ const Originate = () => {
               </li>
             </ul>
           </Col>
-          <Col xs="6">
-            <aside>
-              <figure>
-                <img
-                  src={OriginateImg}
-                  alt="Originate"
-                  style={{ maxWidth: "100%" }}
-                />
-              </figure>
-            </aside>
+          <Col xs="6" className="columnStyle">
+            <img
+              src={OriginateImg}
+              alt="Originate"
+              style={{
+                maxWidth: "100%",
+                marginTop: "15px",
+                marginBottom: "15px",
+              }}
+            />
           </Col>
         </Row>
       </Container>

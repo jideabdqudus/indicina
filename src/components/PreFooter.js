@@ -2,7 +2,14 @@ import React from "react";
 const PreFooter = () => {
   return (
     <div>
-      <div style={{ textAlign: "center", padding: "8.5rem", color: "white" }}>
+      <div
+        style={{
+          textAlign: "center",
+          paddingTop: "8.5rem",
+          paddingBottom: "8.5rem",
+          color: "white",
+        }}
+      >
         <h1>Get in touch with us at</h1>
         <p>
           <a

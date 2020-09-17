@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import "./pages.css";
-import Topbar2 from "../layout/Topbar2";
 import Originate from "../components/Originate";
 import PreFooter from "../components/PreFooter";
 import Footer from "../layout/Footer";
@@ -8,12 +7,19 @@ import EngineSide from "../components/EngineSide";
 import ProductHead from "../components/ProductHead";
 import HowWorks from "../components/HowWorks";
 import { Container } from "reactstrap";
+import { Helmet } from "react-helmet";
+import ProductsBar from "../layout/ProductsBar";
 
 const Products = () => {
   return (
     <Fragment>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Products - Indicina Technolgies</title>
+        <link rel="canonical" href="http://abdulqudus.com" />
+      </Helmet>
       <Container>
-        <Topbar2 />
+        <ProductsBar/>
       </Container>
       <div>
         <ProductHead />

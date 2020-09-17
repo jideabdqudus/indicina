@@ -6,7 +6,7 @@ const HowWorks = () => {
     <div>
       <Row>
         <Col sm="6">
-          <Card body className="cardHero" style={{ height: "350px" }}>
+          <Card body className="cardHero" style={{ height: "400px" }}>
             <CardTitle className="works">Customer Acquisiton</CardTitle>
             <b>PRODUCT DESIGN & DEVELOPMENT</b>
             <CardText style={{ fontSize: "1.3rem", lineHeight: "1.1em" }}>
@@ -31,8 +31,7 @@ const HowWorks = () => {
                     paddingTop: "5px",
                   }}
                 >
-                  Product value proposition (Auto, personal loan, mortgage,
-                  credit card, payroll lending, etc.)
+                  Product value proposition
                 </li>
                 <li
                   style={{
@@ -50,7 +49,7 @@ const HowWorks = () => {
           </Card>
         </Col>
         <Col sm="6">
-          <Card body className="cardHero" style={{ height: "350px" }}>
+          <Card body className="cardHero" style={{ height: "400px" }}>
             <CardTitle className="works">Loss Management</CardTitle>
             <b>FRAUD MANAGEMENT & COLLECTIONS</b>
             <CardText style={{ fontSize: "1.3rem", lineHeight: "1.1em" }}>
@@ -104,7 +103,7 @@ const HowWorks = () => {
           </Card>
         </Col>
         <Col sm="6">
-          <Card body className="cardHero" style={{ height: "400px" }}>
+          <Card body className="cardHero" style={{ height: "430px" }}>
             <CardTitle className="works">Operations & Underwriting</CardTitle>
             <b>RISK ASSESSMENT</b>
             <CardText style={{ fontSize: "1.3rem", lineHeight: "1.1em" }}>
@@ -168,24 +167,13 @@ const HowWorks = () => {
                   >
                     Authorization / Credit approval
                   </li>
-                  <li
-                    style={{
-                      listStyleType: "square",
-                      fontSize: "17px",
-                      lineHeight: "1.2rem",
-                      paddingBottom: "5px",
-                      paddingTop: "5px",
-                    }}
-                  >
-                    Disbursement
-                  </li>
                 </ul>
               </CardText>
             </CardText>
           </Card>
         </Col>
         <Col sm="6">
-          <Card body className="cardHero" style={{ height: "400px" }}>
+          <Card body className="cardHero" style={{ height: "430px" }}>
             <CardTitle className="works">Portfolio Management</CardTitle>
             <b>CUSTOMER CARE</b>
             <CardText style={{ fontSize: "1.3rem", lineHeight: "1.1em" }}>
@@ -250,17 +238,6 @@ const HowWorks = () => {
                 >
                   Customer information system
                 </li>
-                <li
-                  style={{
-                    listStyleType: "square",
-                    fontSize: "17px",
-                    lineHeight: "1.2rem",
-                    paddingBottom: "5px",
-                    paddingTop: "5px",
-                  }}
-                >
-                  Customer service
-                </li>{" "}
               </ul>
             </CardText>
           </Card>
